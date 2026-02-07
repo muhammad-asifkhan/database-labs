@@ -2,7 +2,8 @@
 
 You saw:
 - **Author identity unknown** — Git needs your name and email.
-- **src refspec main does not match any** — Either the branch is still `master`, or there is no commit yet.
+- **src refspec main does not match any** — Either the branch is still `master`, or there was no commit yet.
+- **nothing to commit, working tree clean** — Everything is already committed; you only need to push.
 
 Run these in order in your terminal (use your real name and the email tied to your GitHub account):
 
@@ -14,7 +15,8 @@ Run these in order in your terminal (use your real name and the email tied to yo
 git config --global user.name "Muhammad Asif Khan"
 git config --global user.email "your-email@example.com"
 ```
-
+git config --global user.name "Muhammad Asif Khan"
+git config --global user.email "your-email@example.com"
 Replace `your-email@example.com` with your actual email (ideally your GitHub email).
 
 ---
