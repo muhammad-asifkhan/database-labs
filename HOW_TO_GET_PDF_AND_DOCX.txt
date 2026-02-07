@@ -1,0 +1,42 @@
+HOW TO GET YOUR LAB REPORT AS PDF OR DOCX
+==========================================
+
+You have two files:
+  • Lab01_Report.md   (Markdown - for editing)
+  • Lab01_Report.html (Ready to print – use this for PDF/DOCX)
+
+--- OPTION 1: GET PDF (easiest) ---
+1. Open Lab01_Report.html in Chrome or Firefox (double-click the file).
+2. Press Ctrl+P (Print).
+3. Set "Destination" or "Printer" to "Save as PDF".
+4. Click Save. Name it: Lab01_YourFirstNameYourLastName_RollNumber.pdf
+
+--- OPTION 2: GET DOCX (for Word) ---
+A. Using LibreOffice (if installed):
+   1. Open LibreOffice Writer.
+   2. File → Open → select Lab01_Report.html.
+   3. File → Save As → choose format "Microsoft Word 2007-365 (.docx)".
+   4. Save as Lab01_YourName_RollNumber.docx.
+
+B. Using Google Docs:
+   1. Go to https://docs.google.com
+   2. File → Open → Upload → upload Lab01_Report.html (or drag the file).
+   3. File → Download → Microsoft Word (.docx).
+
+C. Using pandoc (in terminal):
+   sudo apt install -y pandoc
+   cd ~/asif/database-labs
+   pandoc Lab01_Report.md -o Lab01_Report.docx
+
+--- ADDING YOUR SCREENSHOTS ---
+• In the HTML: You can open Lab01_Report.html in a text editor, find each
+  "[INSERT SCREENSHOT HERE]" box, and replace that section with an <img>
+  tag pointing to your screenshot file, e.g.:
+  <img src="screenshot1.png" width="600" alt="Terminal" />
+  Then open the HTML in the browser and print to PDF again.
+
+• In the DOCX: After opening the HTML in Word/LibreOffice or after
+  converting with pandoc, insert your screenshots via Insert → Image
+  at each placeholder.
+
+Submit the final PDF (or DOCX if allowed) to Google Classroom.
