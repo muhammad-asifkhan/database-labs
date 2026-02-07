@@ -1,6 +1,6 @@
 # Database Systems Labs - Spring 2026
 
-**Student:** [Your Name]  
+**Student:** Muhammad Asif Khan  
 **Program:** Data Science  
 
 ## Lab 01: Environment Setup
